@@ -168,4 +168,4 @@ document.querySelector("button").addEventListener("click", () => {
 // myMovieList.innerHTML = "<li>BCIT</li>"
 // Object.keys(myMovies).map(el => `<li>${el}</li>`)
 
-localStorage.clear()
+// localStorage.clear()
