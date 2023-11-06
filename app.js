@@ -134,9 +134,9 @@ function addMovie() {
                     } else {
                         document.querySelector(`#${userTypedText.toLowerCase().replace(/\s/g, '_')}`).textContent = myMovies[key]
                     }
+                    addMovieList(key)
                 }
             }
-            addMovieList(userTypedText)
             clearInput()
         }
         localStorage.setItem("myMovies", JSON.stringify(myMovies))
